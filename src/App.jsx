@@ -1,15 +1,10 @@
-import { Routes, Route } from "react-router-dom";
-
 import "./App.css";
-// import Home from './pages/index';
-import Layout from "./pages/layout/layout";
+import PostCard from "./components/postcard/postcard";
 
 const App = () => {
   return (
     <div className="App">
-      <Routes>
-        <Route path="/" element={<Layout />} />
-      </Routes>
+      <PostCard />
     </div>
   );
 };
