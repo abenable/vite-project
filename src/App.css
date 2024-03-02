@@ -1,10 +1,3 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
 /* Global Styles */
 body {
   margin: 0;
@@ -259,24 +252,4 @@ form {
 .target-post-content p {
   line-height: 1;
   font-size: 18px;
-}
-
-.post-card-title {
-  padding: 0;
-  margin: 0;
-  margin-bottom: 10px;
-}
-.post-card-text {
-  padding: 0;
-  margin: 0;
-}
-.post-card-image {
-  width: 340px;
-  height: 220px;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
 }
