@@ -13,7 +13,7 @@ body {
   align-items: center;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: max-content;
   height: 50px;
   padding: 15px;
   background-color: #7dabea;
@@ -183,7 +183,6 @@ input:focus {
 }
 /* Latest Posts Styles */
 .latest-posts {
-  position: relative;
   margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
