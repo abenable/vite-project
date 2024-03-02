@@ -1,10 +1,10 @@
 import "./App.css";
-import PostCard from "./components/postcard/postcard";
+import Layout from "./pages/layout/layout";
 
 const App = () => {
   return (
     <div className="App">
-      <PostCard />
+      <Layout />{" "}
     </div>
   );
 };
