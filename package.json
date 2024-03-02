@@ -1,5 +1,6 @@
 {
   "name": "vite-project",
+  "homepage": "https://abenable.github.io/vite-project/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
