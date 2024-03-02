@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
+import { resolve, dirname } from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -8,8 +9,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, "index.html"),
-        404: resolve(__dirname, "public/404.html"),
+        main: resolve(dirname(import.meta.url), "index.html"),
+        404: resolve(dirname(import.meta.url), "public/404.html"),
       },
     },
   },
